@@ -34,7 +34,7 @@ jobs:
           GOOS=linux GOARCH=amd64 go build -o bin/shellfb-linux-amd64 ./cmd/shellfb
           GOOS=darwin GOARCH=arm64 go build -o bin/shellfb-darwin-arm64 ./cmd/shellfb
           GOOS=windows GOARCH=amd64 go build -o bin/shellfb-windows-amd64.exe ./cmd/shellfb
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: binaries
           path: bin/
