@@ -35,7 +35,7 @@ Un émulateur de terminal web moderne et multiplateforme écrit en Go. Successeu
 
 ### Prérequis
 
-- [Go 1.21+](https://go.dev/dl/) installé (requis pour les Options 1, 2 et 4)
+- [Go 1.27+](https://go.dev/dl/) installé (requis pour les Options 1, 2 et 4)
 - [Docker](https://docs.docker.com/get-docker/) installé (requis pour l'Option 3 uniquement)
 
 ### Option 1 : Test rapide (aucune installation)
