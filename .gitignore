@@ -4,3 +4,7 @@ recordings/
 transfers/
 config.yaml
 .env
+
+# Local test artifacts and secrets
+certs/
+config.test.yaml
