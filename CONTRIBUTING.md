@@ -108,7 +108,7 @@ Closes #42
 
 ### Prerequisites
 
-- Go 1.26.3 or later
+- Go 1.27.3 or later
 - Git
 - Make (optional, but recommended)
 
