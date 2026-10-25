@@ -7,3 +7,11 @@ recordings/
 backend/
 frontend/
 docs/
+
+# Local files and secrets (never send to build context)
+certs/
+config.yaml
+config.test.yaml
+.env
+.claude/
+transfers/
