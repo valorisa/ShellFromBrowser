@@ -35,7 +35,7 @@ A modern, cross-platform terminal emulator written in Go. Spiritual successor to
 
 ### Prerequisites
 
-- [Go 1.21+](https://go.dev/dl/) installed (required for Options 1, 2, and 4)
+- [Go 1.27+](https://go.dev/dl/) installed (required for Options 1, 2, and 4)
 - [Docker](https://docs.docker.com/get-docker/) installed (required for Option 3 only)
 
 ### Option 1: Quick test (no install needed)
