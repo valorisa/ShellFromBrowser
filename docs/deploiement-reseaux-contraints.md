@@ -15,19 +15,19 @@ un site web ordinaire.
 
 ```text
 ┌─ Réseau contraint ──────────────────────────────────────┐
-│                                                          │
-│  Navigateur ──HTTPS:443──▶ Firewall ──▶ Internet        │
-│              (site web normal pour le firewall)          │
-│                                                          │
-└──────────────────────────────────────────────────────────┘
+│                                                         │
+│  Navigateur ──HTTPS:443──▶ Firewall ──▶ Internet       │
+│              (site web normal pour le firewall)         │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
                                               │
                                               ▼
                                     ┌─ Ton serveur ────────┐
-                                    │                       │
-                                    │  ShellFromBrowser     │
-                                    │  (déchiffre, exécute) │
-                                    │                       │
-                                    └───────────────────────┘
+                                    │                      │
+                                    │  ShellFromBrowser    │
+                                    │  (déchiffre, exécute)│
+                                    │                      │
+                                    └──────────────────────┘
 ```
 
 Le navigateur fait du HTTPS. Le firewall voit du HTTPS. Personne ne sait
