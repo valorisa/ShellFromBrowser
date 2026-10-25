@@ -8,3 +8,6 @@ config.yaml
 # Local test artifacts and secrets
 certs/
 config.test.yaml
+
+# Local Claude Code settings
+.claude/
