@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Docker: version and commit are now passed as build arguments (`VERSION`, `COMMIT`), so `shellfb --version` reports real values in the image
+
 ## [0.5.0] - 2026-10-25
 
 ### Added
